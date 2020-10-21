@@ -21,6 +21,10 @@ main{
    grid-area: grid1;
    padding: 20px;
 }
+
+.grid1 p{
+color: gainsboro;
+}
 .grid1 h2{
 color: hsl(179, 62%, 43%);
 }
