@@ -1,0 +1,54 @@
+body{
+    background-color: lightgray;
+
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    'grid1 grid1'
+    'grid2 grid3';
+    width: 600px;
+    margin-left: 300px;
+    margin-top: 100px;
+    border: radius 10;px;
+}
+
+.grid1{
+   background-color: white;
+   border-top: white;
+   grid-area: grid1;
+   padding: 20px;
+}
+.grid1 h2{
+color: hsl(179, 62%, 43%);
+}
+
+.grid1 h3{
+    color: Bright Yellow: hsl(71, 73%, 54%);
+}
+
+h2{
+    Cyan: hsl(179, 62%, 43%)
+}
+
+.grid2{
+    background-color: aqua;
+    border-top: aqua;
+    grid-area: grid2;
+    padding: 20px;
+    color: whitesmoke;
+
+}
+
+.grid3{
+background-color:rgb(63, 216, 216);
+border-top: rgb(63, 216, 216);
+grid-area: grid3;
+padding: 20px;
+color: whitesmoke;
+
+
+}
+
